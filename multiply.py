@@ -25,8 +25,6 @@ def reducer(key, sequence):
     a = [0 for i in range(5)]
     b = [0 for i in range(5)]
     i = 0
-    j = 0
-    k = 0
 
     while i < len(sequence):
         if sequence[i][0] == "a":
