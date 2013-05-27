@@ -1,4 +1,4 @@
-datascience
+Data Science
 ===========
 
 Data Science Scripts
