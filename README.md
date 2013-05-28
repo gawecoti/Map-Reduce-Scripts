@@ -10,6 +10,13 @@ This repository contains several scripts in Python of that apply the Map Reduce 
 5. unique_trims.py - The input are key-value pairs of ids and sequence of nucleotides. The output are trimmed sequences of nucleotides with the last 10 base pairs removed.
 6. multiply.py - Multiplies two 5x5 matrices
 
-To run: python inverted_index.py data/records.json
+To Run
+=========
 
+```
+python inverted_index.py data/records.json
+```
+
+```
 Use the correct .json file for each of the six scripts.
+```
