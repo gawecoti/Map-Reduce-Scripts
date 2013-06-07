@@ -5,6 +5,9 @@ import sys
 
 mr = MapReduce.MapReduce()
 
+# The input are key-value pairs of two friends. 
+# The output are key-value pairs of each person and their number of friends.
+
 def mapper(record):
     #key: person_a
     #value: person_b
