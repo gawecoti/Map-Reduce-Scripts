@@ -1,9 +1,12 @@
-__author__ = 'tgameco'
+__author__ = 'tgaweco'
 
 import MapReduce
 import sys
 
 mr = MapReduce.MapReduce()
+
+# The input are key-value pairs of ids and sequence of nucleotides. 
+# The output are trimmed sequences of nucleotides with the last 10 base pairs removed
 
 def mapper(record):
     #key: sequence_id
