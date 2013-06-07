@@ -16,7 +16,6 @@ def mapper(record):
 def reducer(key, list_of_friends):
     #key: person
     #value: friend
-    person = dict()
     if len(list_of_friends) < 2:
         mr.emit((key))
 
