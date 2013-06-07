@@ -18,8 +18,13 @@ def mapper(record):
 def reducer(key, list_of_document_ids):
     #key: order_id
     #value: joined documents
+    
+    # Take the first tuple 
     join = list(list_of_document_ids[0])
     
+    # Compare that tuple with each other one 
+    # and join them if they're from different
+    # tables
     for row in list_of_document_ids:
         if (join[0] != row[0]):
             out = join + row
