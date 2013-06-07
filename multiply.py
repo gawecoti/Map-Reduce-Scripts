@@ -5,6 +5,8 @@ import sys
 
 mr = MapReduce.MapReduce()
 
+# Multiplies two 5x5 matrices
+
 def mapper(record):
     #key: element i,j in AxB
     #value: element value
