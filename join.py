@@ -1,4 +1,4 @@
-__author__ = 'tgameco'
+__author__ = 'tgaweco'
 
 
 import MapReduce
