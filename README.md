@@ -1,7 +1,7 @@
 Map Reduce Scripts in Python
 ===========
 
-This repository contains several scripts in Python of that apply the Map Reduce programming model. 
+This repository contains several scripts in Python that apply the Map Reduce programming model. 
 
 1. inverted_index.py - The input are key-value pairs of document id's and accompanying text. The output are key-value pairs of words and the documents they're found in.
 2. join.py - Performs a SQL join using Map Reduce.
